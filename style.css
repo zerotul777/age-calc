@@ -78,7 +78,6 @@
 
 #result {
     font-size: 20px;
-
 }
 
 #result span {
@@ -87,14 +86,19 @@
 
 @media screen and (max-width: 830px){
 	.input-box {
-		width: 80%;
-		padding: 25px;
-		display: grid;
+
 	}
 	.calculator h1 {
 		font-size: 40px;
 	}
-	.input-box input {
-		margin: 0 0 20px 0;
+	#result {
+		font-size: 15px;
 	}
+	.calculator {
+		width: 100%;
+		max-width: 100%;
+		margin-left: 0;
+		margin-top: 10%;
+	}
+	
 }
